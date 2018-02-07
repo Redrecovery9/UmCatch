@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Toolbar class='toolbar'/>
+    <Home class='home'/>
     <router-view/>
     <CopyRightBar class='copyrightbar'/>
   </div>
@@ -9,12 +10,14 @@
 <script>
 import Toolbar from './components/Toolbar'
 import CopyRightBar from './components/CopyRightBar'
+import Home from './components/Home'
 
 export default {
   name: 'app',
   components: {
     Toolbar,
-    CopyRightBar
+    CopyRightBar,
+    Home
   }
 }
 </script>
@@ -29,6 +32,9 @@ export default {
   position: fixed;
   top: 0;
   z-index: 1000;
+}
+.home {
+  margin-top: 100px;
 }
 .copyrightbar {
   bottom: 0;
