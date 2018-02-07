@@ -1,23 +1,36 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <Toolbar class='toolbar'/>
     <router-view/>
+    <CopyRightBar class='copyrightbar'/>
   </div>
 </template>
 
 <script>
+import Toolbar from './components/Toolbar'
+import CopyRightBar from './components/CopyRightBar'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Toolbar,
+    CopyRightBar
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+}
+.toolbar {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.copyrightbar {
+  bottom: 0;
 }
 </style>
