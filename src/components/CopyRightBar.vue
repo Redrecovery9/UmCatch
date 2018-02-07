@@ -20,15 +20,13 @@
     <b-row class='copyright'>
       <b-col cols="8" class='leftcopy'>
         <span>
-          Copyright &copy 2017 B:CIVIC (Businesses Committed to Investing
-          and Volunteering in the Community)
+          Copyright &copy 2018 UM Catch
         </span>
       </b-col>
       <b-col class='rightcopy'>
         <b-button class='icons' disabled href="#"><icon name="facebook"></icon></b-button>
         <b-button class='icons' disabled href="#"><icon name="twitter"></icon></b-button>
         <b-button class='icons' disabled href="#"><icon name="google-plus"></icon></b-button>
-        <b-button class='icons' disabled href="#"><icon name="star-o"></icon></b-button>
       </b-col>
     </b-row>
   </div>
@@ -65,7 +63,7 @@ export default {
 }
 .leftcopy {
   font-size: .70em;
-  color: #7F1B00;
+  color: #CB2B00;
   margin-top: 50px;
   margin-left: 125px;
   margin-bottom: 10px;
@@ -78,7 +76,7 @@ export default {
 .icons {
   border-color: #007F58;
   background-color: #007F58;
-  color: #7F1B00;
+  color: #CB2B00;
 }
 .icons:hover {
   background-color: #7F1B00;
