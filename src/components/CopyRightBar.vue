@@ -25,10 +25,10 @@
         </span>
       </b-col>
       <b-col class='rightcopy'>
-        <b-button class='icons' href="#"><icon name="facebook"></icon></b-button>
-        <b-button class='icons' href="#"><icon name="twitter"></icon></b-button>
-        <b-button class='icons' href="#"><icon name="google-plus"></icon></b-button>
-        <b-button class='icons' href="#"><icon name="star-o"></icon></b-button>
+        <b-button class='icons' disabled href="#"><icon name="facebook"></icon></b-button>
+        <b-button class='icons' disabled href="#"><icon name="twitter"></icon></b-button>
+        <b-button class='icons' disabled href="#"><icon name="google-plus"></icon></b-button>
+        <b-button class='icons' disabled href="#"><icon name="star-o"></icon></b-button>
       </b-col>
     </b-row>
   </div>
@@ -42,7 +42,7 @@ export default {
 <style scoped>
 .footer {
   margin-top: 20px;
-  background-color: #004286;
+  background-color: #007F58;
   color: white;
 }
 .left {
@@ -60,27 +60,28 @@ export default {
   margin-top: 30px;
 }
 .copyright {
-  background-color: #004286;
+  background-color: #007F58;
+  font-weight: bolder;
 }
 .leftcopy {
   font-size: .70em;
-  color: #73DC44;
+  color: #7F1B00;
   margin-top: 50px;
   margin-left: 125px;
   margin-bottom: 10px;
 }
 .rightcopy {
-  color: #73DC44;
+  color: #7F1B00;
   margin-top: 50px;
   margin-bottom: 20px;
 }
 .icons {
-  border-color: #004286;
-  background-color: #004286;
-  color: #73DC44;
+  border-color: #007F58;
+  background-color: #007F58;
+  color: #7F1B00;
 }
 .icons:hover {
-  background-color: #73DC44;
-  color: #004286;
+  background-color: #7F1B00;
+  color: #007F58;
 }
 </style>
