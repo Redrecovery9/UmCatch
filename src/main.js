@@ -4,7 +4,7 @@ import App from './App'
 import BootstrapVue from 'bootstrap-vue'
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
-import { index } from './router/index'
+import { routes } from './router/index'
 
 Vue.use(VueRouter)
 
@@ -16,7 +16,7 @@ Vue.component('icon', Icon)
 Vue.config.productionTip = false
 
 const router = new VueRouter({
-  index,
+  routes,
   mode: 'history'
 })
 

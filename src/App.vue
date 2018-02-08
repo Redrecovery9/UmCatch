@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Toolbar class='toolbar'/>
-    <Home class='home'/>
     <router-view/>
     <CopyRightBar class='copyrightbar'/>
   </div>
