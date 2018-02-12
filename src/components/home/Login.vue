@@ -4,12 +4,12 @@
      <b-container>
        <b-row>
          <b-col sm='2' class='labels'>
-           <p>Username:</p>
+           <p>Email:</p>
          </b-col>
          <b-col sm='8'>
-           <b-form-input class='UsernameCol'
-                  type="Username"
-                  placeholder="Username">
+           <b-form-input class='emailCol'
+                  type="email"
+                  placeholder="Email">
             </b-form-input>
           </b-col>
        </b-row>
@@ -24,9 +24,8 @@
             </b-form-input>
           </b-col>
        </b-row>
-      <b-row>
+      <b-row class='loginButtons'>
         <b-col sm='1' class='loginCol'><b-button class='loginButton'>Login</b-button></b-col>
-        <b-col sm='3' class='signupCol'><b-button class='signupButton'>Sign Up</b-button></b-col>
       </b-row>
      </b-container>
    </div>
@@ -51,8 +50,10 @@ export default {
 .labels {
   margin-left: 10%;
 }
-.loginCol {
-  margin-left: 35%;
+.loginButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .loginButton {
   background-color: #CB2B00;
