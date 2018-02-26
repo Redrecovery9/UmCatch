@@ -40,7 +40,7 @@ export default {
 <style scoped>
 .footer {
   margin-top: 20px;
-  background-color: #007F58;
+  background-color: #34D175;
   color: white;
 }
 .left {
@@ -58,7 +58,7 @@ export default {
   margin-top: 30px;
 }
 .copyright {
-  background-color: #007F58;
+  background-color: #34D175;
   font-weight: bolder;
 }
 .leftcopy {
@@ -74,12 +74,12 @@ export default {
   margin-bottom: 20px;
 }
 .icons {
-  border-color: #007F58;
-  background-color: #007F58;
+  border-color: #34D175;
+  background-color: #34D175;
   color: #CB2B00;
 }
 .icons:hover {
   background-color: #7F1B00;
-  color: #007F58;
+  color: #34D175;
 }
 </style>

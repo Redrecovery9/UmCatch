@@ -26,7 +26,7 @@ export default {
 
 }
 .toolbar {
-  background-color: #007F58;
+  background-color: #34D175;
   width: 100%;
   position: fixed;
   top: 0;

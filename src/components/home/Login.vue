@@ -2,7 +2,7 @@
  <div class="login">
    <div class="loginCardBody">
      <b-container>
-       <b-tabs class="tabs">
+       <b-tabs>
          <b-tab title='Existing User' active>
            <b-row>
              <b-col sm='2' class='labels emailLabel'>
