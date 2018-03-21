@@ -9,7 +9,6 @@
             </b-navbar-brand>
             <b-nav-item href="#"><b-nav-text class='nav-links'>About</b-nav-text></b-nav-item>
             <b-nav-item href="#"><b-nav-text class='nav-links'>Contact Us</b-nav-text></b-nav-item>
-            <b-nav-item href="#"><b-nav-text class='nav-links'>Resources</b-nav-text></b-nav-item>
           </b-nav>
           <!-- <b-nav is-nav-bar class="ml-auto nav-links login">
             <b-nav-item href="#"><b-nav-text class='nav-links'>Login</b-nav-text></b-nav-item>
@@ -37,26 +36,26 @@ export default {
 }
 .nav-links{
   font-weight: 600;
-  color: #CB2B00;
+  color: #DC6A2D;
 }
 .nav-links:hover {
-  color: #7F1B00;
+  color: #8F4219;
 }
 .dropdown-links {
   font-weight: bolder;
   margin-top: 8px;
 }
 .dropdown-links a span:hover{
-  color: #7F1B00;
+  color: #8F4219;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #7F1B00;
+  color: #8F4219;
 }
 .dropdown-items {
   font-weight: bolder;
 }
 .dropdown-items:hover {
-  color: #7F1B00;
+  color: #8F4219;
 }
 .login {
   margin-right: 30px
